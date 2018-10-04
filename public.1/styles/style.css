@@ -1,0 +1,223 @@
+.navbar {
+    background-color: rgba(226, 226, 212, 0.753) !important;
+    border:none !important;
+  }
+
+  .navbar ul li{
+      /* padding-top:2.2rem; */
+      padding-right:2rem;
+  }
+  
+  .navbar ul li a {
+    color: #fff !important;
+    font-size: 3rem;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 5px;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: rgba(187, 189, 179, 0.692) !important;
+    color: #fff !important;
+    font-family: 'Slabo 27px', serif;
+  }
+  
+  .navbar-brand{
+        color: rgba(129, 179, 119, 0.849) !important;
+        font-family: 'Slabo 27px', serif;
+        font-size: 3rem !important; 
+        letter-spacing: 5px;
+  }
+
+  .navbar-brand a{
+    font-family: 'Slabo 27px', serif;
+   
+}
+
+ 
+  
+  
+  /***** HOME *****/
+  
+  #home {
+    background: url("../img/garden3.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 680px;
+  }
+  
+  .home-wrap {
+    padding-top: 140px;
+  }
+  
+  .home-header {
+    font-size: 10rem;
+    color:white;
+    background-color: rgba(226, 226, 212, 0.753);
+    letter-spacing: 8px;
+    font-family: 'Slabo 27px', serif;
+    margin-top:10rem;
+
+  }
+  
+
+  .btn {
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #458B74;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #458B74;
+  }
+  
+  
+  /***** ABOUT *****/
+  
+  #about {
+    background-color:  rgba(164, 202, 161, 0.5);
+    color: #fff;
+    padding-bottom: 80px;
+  }
+  
+  .about-wrap {
+    width: 60%;
+    margin: auto;
+    margin-top: 95px;
+  }
+  
+  h1 {
+    text-align: center;
+
+  }
+  
+  .line {
+    margin-top: 30px;
+    width: 50%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+  }
+  
+  .about-text {
+    font-size: 1.8rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+  }
+  
+  .camp-link {
+    color: #fff;
+  }
+  
+  .skills-list li {
+    font-size: 18px;
+    list-style-position: inside;
+    text-align: justify;
+    margin-left: 40px;
+  }
+  
+  
+  /***** PORTFOLIO *****/
+  
+  #portfolio {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: rgba(146, 170, 137, 0.534);
+  }
+  
+  .portfolio-header {
+    font-size: 6rem;
+    color:white;
+    letter-spacing: 8px;
+    font-family: 'Slabo 27px', serif;
+    margin-top:2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .placeholder-item {
+    margin-top: 40px;
+    text-align: center;
+    overflo: hidden;
+  }
+  
+  .placeholder-desc {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000;
+  }
+  
+  img {
+    border: 1px solid orange;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .divider {
+    background-color: #458B74;
+    height: 3px;
+  }
+  
+  
+  /***** CONTACT *****/
+  
+  #contact {
+    background-color: #EEDFCC;
+    padding-top: 10px;
+    padding-bottom: 65px;
+  }
+  
+  .contact-header {
+    font-family: "Oswald";
+    color: #000;
+    font-size: 40px;
+  }
+  
+  .contact-line {
+    background-color: orange;
+    border: none;
+    height: 2px;
+    width: 40%;
+  }
+  
+  .contact-wrap {
+    margin-top: 60px;
+  }
+  
+  
+  /***** FOOTER *****/
+  
+  footer {
+    background-color: #458B74;
+    height: 40px;
+  }
+  
+  .footer-menu {
+    margin-left: -30px;
+  }
+  
+  .footer-menu li {
+    display: inline;
+    margin: 10px;
+  }
+  
+  .footer-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .about-text {
+      font-size: 15px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    .skills-list li {
+      font-size: 15px;
+    }
+  }

@@ -1,0 +1,61 @@
+<!-- Include head.ejs -->
+<% include .././partials/standard/head %>
+
+<body>
+    <!-- Content Area Start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p class="text-muted text-center">Bestilling</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h1  class="text-muted text-center">Kampagne</h1>
+                            <div class="col-md-4">
+                
+                            </div>
+                            <a type="button" href="/" class="btn btn-primary btn-lg btn-block">Vend tilbage til forsiden</a>
+                        </div>
+                    </div>
+
+                    <div class="card-block">
+                        <div class="container">
+                            <h2>Billet salg</h2>
+                            <p>Her kan du købe din billet til kampagne pris!</p>
+
+                            <input type="checkbox" class="form-check-input">
+                            <a href="/tos">Bekræft at du har læst og indgår vores salgsbetingelser</a>
+                            <form action="/charge", method="post">
+                                <article>
+                                    Pris: 250 Kr
+                                </article>
+                                <script src="https://checkout.stripe.com/v2/checkout.js" 
+                                        class="stripe-button" 
+                                        data-key="pk_test_2kOsrP69LCI6NkGXyyp0iBsf" 
+                                        data-locale="auto" 
+                                        data-name="Kampagne billet"
+                                        data-description="Køb din kampagne billet her."
+                                        data-currency="dkk"
+                                        data-amount="25000"/>
+                            </form>
+                        </div>
+                        
+                    </div>
+
+                    <div class="card-footer footer bg-light">
+                        <p class="text-muted text-center">Kampagne Site - Copyright 2018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content Area End -->
+</body>
+
+<!--include script.ejs-->
+<% include .././partials/standard/scripts %>
+</html>
+
